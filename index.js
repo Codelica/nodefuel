@@ -11,7 +11,7 @@ const core = { registerPlugin: registerPlugin };
 
 // Load logging module
 const logging = require('./lib/logging.js')(plugins);
-const log = logging.logger('nF-Core');
+const log = logging.logger('NF');
 
 // Load config module
 const config = require('./lib/config.js')(plugins, log);
