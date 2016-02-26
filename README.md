@@ -192,7 +192,7 @@ nf.addWebConsole('192.168.1.100', 8000, { title: 'My Node Application' });
 
 ## History
 
-* v0.5.1 - Initial release
+* v0.5.2 - Initial release
 
 ## Credits
 
