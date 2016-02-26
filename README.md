@@ -135,7 +135,7 @@ log.error(`Query error: ${err}`);
     - **timestamp** (function) - Custom function returning a formatted time string to use
     - **eol** (string) - Line ending to use *(default: OS default)*
     - **maxRetries** (integer) - How many times to try writing file before error *(default: 3)*
-- **returns -> ** Log name (string) to idenitfy the log for later actions like logfilter().
+- **returns ->** Log name (string) to idenitfy the log for later actions like logfilter().
 
 ```javascript
 // Sample code
@@ -154,7 +154,7 @@ nf.addLogFile('logs/application.log', {level: 'debug'});
     - **sound** (string) - Pushover sound to use *(default: 'siren')*
     - **retry** (integer) - How often to retry for Pushover priority 2 events *(default: 60)*
     - **expire** (integer) - How log to retry for Pushover priority 2 events *(default: 3600)*
-- **returns -> ** Log name (string) to idenitfy the log for later actions like logfilter().
+- **returns ->** Log name (string) to idenitfy the log for later actions like logfilter().
 
 ```javascript
 // Sample code
@@ -172,7 +172,7 @@ nf.addPushAlert('My Node Application', {
     - **level** (string) - Lowest log level that will be displayed *(default: 'raw')*
     - **labels** (string|array|false) - Only include these filter labels *(default: false)*
     - **title** (string) - Title to use for the Web console page *(default: 'NodeFuel Web Console')*
-- **returns -> ** Log name (string) to idenitfy the log for later actions like logfilter().
+- **returns ->** Log name (string) to idenitfy the log for later actions like logfilter().
 
 ```javascript
 // Sample code
@@ -181,10 +181,10 @@ nf.addWebConsole('192.168.1.100', 8000, { title: 'My Node Application' });
 ```
     
 ####getLoggers ()
-- **returns -> ** Array of all logger labels currently defined.
+- **returns ->** Array of all logger labels currently defined.
 
 ####getLogs ()
-- **returns -> ** Array of all log names currently defined.
+- **returns ->** Array of all log names currently defined.
 
 ## Version 
 
