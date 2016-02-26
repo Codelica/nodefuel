@@ -1,6 +1,6 @@
 {
   "name": "nodefuel",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "NodeFuel core framework with logging and utilities",
   "engines" : { "node" : ">=4.3.0" },
   "main": "index.js",
